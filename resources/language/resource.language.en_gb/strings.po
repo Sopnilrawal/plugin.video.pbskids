@@ -1,0 +1,86 @@
+# Kodi Media Center language file
+# Addon Name: PBS Kids
+# Addon id: plugin.video.pbskids
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.pbskids\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+
+msgctxt "#30000"
+msgid "Shows A-Z"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Favourite shows"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Search"
+msgstr ""
+
+msgctxt "#30003"
+msgid "New search"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Clear search history"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Episodes"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Clips"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Next page"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Add to favourite shows"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Remove from favourite shows"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Remove from search history"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Nothing found"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Could not reach PBS Kids"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Cache cleared"
+msgstr ""
+
+msgctxt "#30100"
+msgid "General"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Show subtitles when available"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Cache duration (hours, 0 = off)"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Videos per page"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Clear cache"
+msgstr ""

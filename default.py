@@ -1,14 +1,8 @@
 # -*- coding: utf-8 -*-
-# KodiAddon 
-#
-from lib.scraper import myAddon
-import re
+# PBS Kids Kodi add-on entry point
 import sys
 
-# Start of Module
+from resources.lib import router
 
-addonName = re.search('plugin\://plugin.video.(.+?)/',str(sys.argv[0])).group(1)
-ma = myAddon(addonName)
-ma.processAddonEvent()
-del myAddon
-
+if __name__ == '__main__':
+    router.run(sys.argv)
