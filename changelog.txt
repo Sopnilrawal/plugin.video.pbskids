@@ -1,1 +1,7 @@
+Version 4.0.0
+- Rewrite for Kodi 19+ / Python 3, no script.module.t1mlib dependency
+- Shows A-Z, episodes and clips with paging
+- Search with history, favourite shows
+- Disk cache, subtitles, HLS playback
+
 Version 3.0.1 separate scraper for future functions

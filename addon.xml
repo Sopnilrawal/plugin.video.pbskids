@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.pbskids"
        name="PBS Kids"
-       version="3.0.1"
-       provider-name="t1m">
+       version="4.0.0"
+       provider-name="t1m, sopnilrawal">
   <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-    <import addon="script.module.t1mlib" version="1.0.14"/>
+    <import addon="xbmc.python" version="3.0.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">PBS Kids</summary>
-    <description lang="en">PBS Kids is the most widely used non-profit informational resource in our community.</description>
-    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <summary lang="en_GB">PBS Kids</summary>
+    <description lang="en_GB">Watch free episodes and clips of PBS Kids shows. Browse shows A-Z, search, and keep a list of your favourite shows.</description>
+    <disclaimer lang="en_GB">This add-on is not affiliated with PBS. Content availability is decided by PBS Kids and may be limited to the United States.</disclaimer>
     <platform>all</platform>
     <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=253386</forum>
-    <website>video.thinktv.org</website>
-    <email></email>
-    <source>https://github.com/learningit/plugin.video.pbskids/</source>
+    <license>GPL-2.0-only</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=253386</forum>
+    <website>https://pbskids.org/video</website>
+    <source>https://github.com/sopnilrawal/plugin.video.pbskids</source>
+    <news>v4.0.0
+- Rewritten for Kodi 19+ (Python 3), no external module dependency
+- Shows A-Z, episodes and clips with paging
+- Search with search history
+- Favourite shows (context menu)
+- Response caching and subtitle support</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
